@@ -11,12 +11,10 @@ public class Student {
 		this.name = name;
 		this.subnum = subnum;
 		test = new Test[subnum];
-		
-		for(int i=0;i<subnum;i++)
-		{
+
+		for (int i = 0; i < subnum; i++) {
 			test[i] = new Test();
 		}
-		
 
 	}
 
